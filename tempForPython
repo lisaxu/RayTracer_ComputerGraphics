@@ -1,0 +1,24 @@
+Printing model:
+Number of vertices: 1335
+Number of faces: 2452
+Mean vertex: (896.994, 727.076, 83.0924)
+Bounding box:
+min: [139.061,32.0943,-17.7412,]
+max: [1654.93,1319.95,282.13,]
+Bounding Sphere: center at [896.994,727.076,83.0924,] with diameter^2 of 578454, EO is [0.993678,0.0759511,-9999.91,], distanceSq to foccal point is 9.99982e+07
+
+--------------------------
+printing camera info: 
+U min: -100, max: 100
+V min: -100, max: 100
+focal point: [896,727,10083,]
+focal length: 1000
+VUP: [1,0,0,]
+n: [0,0,-1,]
+u: [-0,1,0,]
+v: [1,0,0,]
+rows: 201
+col: 201
+---------------------
+min: 0 max=1.87844
+67 67 67 67 67 67 67 67 67 67 67 67 

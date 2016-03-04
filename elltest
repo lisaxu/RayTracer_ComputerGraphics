@@ -1,0 +1,172 @@
+[==========] Running 20 tests from 11 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from ModelBuilder
+[ RUN      ] ModelBuilder.IOerror
+[       OK ] ModelBuilder.IOerror (13 ms)
+[ RUN      ] ModelBuilder.buildApple
+[       OK ] ModelBuilder.buildApple (21 ms)
+[ RUN      ] ModelBuilder.buildellell
+[       OK ] ModelBuilder.buildellell (9 ms)
+[----------] 3 tests from ModelBuilder (43 ms total)
+
+[----------] 2 tests from Model
+[ RUN      ] Model.calculateModelStat
+[       OK ] Model.calculateModelStat (10 ms)
+[ RUN      ] Model.multiplyTransformationMatrix
+[       OK ] Model.multiplyTransformationMatrix (1 ms)
+[----------] 2 tests from Model (11 ms total)
+
+[----------] 3 tests from Matrix
+[ RUN      ] Matrix.scale
+[       OK ] Matrix.scale (0 ms)
+[ RUN      ] Matrix.translate
+[       OK ] Matrix.translate (0 ms)
+[ RUN      ] Matrix.rotate
+[       OK ] Matrix.rotate (0 ms)
+[----------] 3 tests from Matrix (0 ms total)
+
+[----------] 2 tests from scene
+[ RUN      ] scene.FileIO
+[       OK ] scene.FileIO (24 ms)
+[ RUN      ] scene.LandU
+[       OK ] scene.LandU (1 ms)
+[----------] 2 tests from scene (25 ms total)
+
+[----------] 1 test from Scene
+[ RUN      ] Scene.materialIO
+[       OK ] Scene.materialIO (2 ms)
+[----------] 1 test from Scene (2 ms total)
+
+[----------] 1 test from Vector3D
+[ RUN      ] Vector3D.basic
+[       OK ] Vector3D.basic (0 ms)
+[----------] 1 test from Vector3D (0 ms total)
+
+[----------] 4 tests from Ray
+[ RUN      ] Ray.intersectPlane
+[       OK ] Ray.intersectPlane (0 ms)
+[ RUN      ] Ray.isInside
+[       OK ] Ray.isInside (1 ms)
+[ RUN      ] Ray.hitCloserPolygon
+[       OK ] Ray.hitCloserPolygon (0 ms)
+[ RUN      ] Ray.getFirstHitBlockHit
+[       OK ] Ray.getFirstHitBlockHit (1 ms)
+[----------] 4 tests from Ray (2 ms total)
+
+[----------] 1 test from Sphere
+[ RUN      ] Sphere.basic
+[       OK ] Sphere.basic (0 ms)
+[----------] 1 test from Sphere (0 ms total)
+
+[----------] 1 test from FUnction
+[ RUN      ] FUnction.reflectionCOlor
+[       OK ] FUnction.reflectionCOlor (0 ms)
+[----------] 1 test from FUnction (0 ms total)
+
+[----------] 1 test from randomNumber
+[ RUN      ] randomNumber.rand
+[       OK ] randomNumber.rand (0 ms)
+[----------] 1 test from randomNumber (0 ms total)
+
+[----------] 1 test from multiBounce
+[ RUN      ] multiBounce.ellell
+[0] original ray Ray starts from [-1,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[0] hit polygon 6
+[0] added ambient [0.5,0.4,0.3,]
+[0] viewing direction [-1,-0,-0,]
+[0] light cource is on the other side of plane
+[1] Ks product:0.4
+[1]  fanSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[1] original ray Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[1] didn't hit polygons, return [0,0,0,]
+[1] Kt product:0.6
+[1]  zheSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[1] original ray Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[1] hit polygon 11
+[1] added ambient [0.1,1,0.2,]
+[1] viewing direction [-1,-0,-0,]
+[1] after add diffuse reflection[0.2,1,0.2,]
+[1] after add specular reflection[0.4,1,0.2,]
+[2] Ks product:0.12
+[2]  fanSheGuang:Ray starts from [2,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[2] original ray Ray starts from [2,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[2] hit polygon 6
+[2] added ambient [0.5,0.4,0.3,]
+[2] viewing direction [1,-0,-0,]
+[2] after add diffuse reflection[1,0.4,0.3,]
+[2] after add specular reflection[1.4,0.4,0.3,]
+[3] Ks product:0.048
+[3]  fanSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[3] original ray Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[3] hit polygon 11
+[3] added ambient [0.1,1,0.2,]
+[3] viewing direction [-1,-0,-0,]
+[3] after add diffuse reflection[0.2,1,0.2,]
+[3] after add specular reflection[0.4,1,0.2,]
+[4] Ks product:0.0096
+[4]  fanSheGuang:Ray starts from [2,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[4] original ray Ray starts from [2,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[4] hit polygon 6
+[4] added ambient [0.5,0.4,0.3,]
+[4] viewing direction [1,-0,-0,]
+[4] after add diffuse reflection[1,0.4,0.3,]
+[4] after add specular reflection[1.4,0.4,0.3,]
+[5] Ks product:0.00384
+[5]  fanSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[5] original ray Ray starts from [0,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[5] hit polygon 11
+[5] added ambient [0.1,1,0.2,]
+[5] viewing direction [-1,-0,-0,]
+[5] after add diffuse reflection[0.2,1,0.2,]
+[5] after add specular reflection[0.4,1,0.2,]
+[6] Ks product:0.000768
+[6] Kt product:0.002304
+[6]  zheSheGuang:Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[6] original ray Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[6] didn't hit polygons, return [0,0,0,]
+[5] Kt product:0.00576
+[5]  zheSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[5] original ray Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[5] didn't hit polygons, return [0,0,0,]
+[4] Kt product:0.0288
+[4]  zheSheGuang:Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[4] original ray Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[4] didn't hit polygons, return [0,0,0,]
+[3] Kt product:0.072
+[3]  zheSheGuang:Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[3] original ray Ray starts from [0,0.5,0.5,] in the direction of [-1,0,0,], tValue:1.79769e+308
+
+[3] didn't hit polygons, return [0,0,0,]
+[2] Kt product:0.36
+[2]  zheSheGuang:Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[2] original ray Ray starts from [2,0.5,0.5,] in the direction of [1,0,0,], tValue:1.79769e+308
+
+[2] didn't hit polygons, return [0,0,0,]
+[0.942176,1.10368,0.469248,]
+[       OK ] multiBounce.ellell (8 ms)
+[----------] 1 test from multiBounce (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 11 test cases ran. (91 ms total)
+[  PASSED  ] 20 tests.

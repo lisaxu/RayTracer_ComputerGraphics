@@ -1,0 +1,10 @@
+/test
+./pa4 test2/oCam test2/lightmatrefra test2/bigDodec.ply test2/window.ply test2/out.ppm
+
+
+/test2
+./pa4 test/dCam test/test3matlight test/bigDodMoved.ply test/window.ply test/turbine.ply test/out72.ppm
+
+
+/xi
+./pa4 xi/refcam xi/lightmatref xi/reftestM1.ply xi/bigxOcta.ply xi/reftestM2.ply xi/out.ppm

@@ -1,0 +1,11 @@
+
+unit test for polygon boundingSphere and model bigSphere needed
+parallel edges for surface norm, not tested yet
+
+1. choose a right angle for ellell, try your best to make it work
+2. test the camera/plane/lightsrc model
+3. add bounding sphere
+
+
+camera/apple_camera1 material/apple model/scaled_apple.ply out.ppm
+

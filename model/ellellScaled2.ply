@@ -1,0 +1,51 @@
+ply
+format ascii 1.0
+comment ellell.ply
+comment Licensing: This code is distributed under the GNU LGPL license.
+comment Modified: 10 June 2012
+comment Author: John Burkardt
+element vertex 20
+property float32 x
+property float32 y
+property float32 z
+element face 18
+property list uint8 int32 vertex_index
+end_header
+-10 -10 0 
+20 -10 0 
+50 -10 0 
+-10 20 0 
+20 20 0 
+50 20 0 
+-10 50 0 
+20 50 0 
+-10 -10 30 
+20 -10 30 
+50 -10 30 
+-10 20 30 
+20 20 30 
+50 20 30 
+-10 50 30 
+20 50 30 
+-10 20 90 
+20 20 90 
+-10 50 90 
+20 50 90 
+4 0 3 4 1 
+4 1 4 5 2 
+4 3 6 7 4 
+4 8 9 12 11 
+4 9 10 13 12 
+4 16 17 19 18 
+4 0 8 11 3 
+4 3 11 14 6 
+4 11 16 18 14 
+4 4 12 15 7 
+4 12 17 19 15 
+4 2 10 13 5 
+4 0 1 9 8 
+4 1 2 10 9 
+4 11 12 17 16 
+4 4 5 13 12 
+4 6 7 15 14 
+4 14 15 19 18 
